@@ -7,20 +7,34 @@
 
   <body>
     <header>
-
+      
     </header>
     <main>
       <h1>CatPhotoApp</h1>
+      <div>
+        <h2>Table of contents:</h2>
+        <ol>
+          <li><a href="#catphotos">Cat Photos</a></li>
+          <li>
+            <a href="#catlists">Cat Lists</a>
+            <ul>
+              <li><a href="#love">Things cats love</a></li>
+              <li><a href="#hate">Top 3 things cats hate</a></li>
+            </ul>
+          </li>
+          <li><a href="#catform">Cat Form</a></li>
+        </ol>
+      </div>
       <section> 
-        <h2>Cat Photos</h2>
+        <h2 id="catphotos">Cat Photos</h2>
         <p>See more <a target="_blank" href="https://freecatphotoapp.com/">cat photots</a> in our gallery</p>
         <figure>
           <a target="_blank" href="https://freecatphotoapp.com/"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
         </figure>
       </section>
       <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
+        <h2 id="catlists">Cat Lists</h2>
+        <h3 id="love">Things cats love:</h3>
         <ul>
           <li>cat nip</li>
           <li>laser pointers</li>
@@ -30,7 +44,7 @@
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna">
           <figcaption>Cats <i>love</i> lasagna</figcaption>
         </figure>
-        <h3>Top 3 things cats hate:</h3>
+        <h3 id="hate">Top 3 things cats hate:</h3>
         <ol>
           <li>flea treatment</li>
           <li>thunder</li>
@@ -42,7 +56,7 @@
         </figure>
       </section>
       <section>
-        <h2>Cat Form</h2>
+        <h2 id="catform">Cat Form</h2>
         <form action="">
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
